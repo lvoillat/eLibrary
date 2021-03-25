@@ -33,7 +33,7 @@ public class LoginTest extends TestCase {
 	public static WebDriver driver;
 
 	 /**
-	  @wi.implements Test User Login SD-1731
+	  @wi.implements SD-1731 Test User Login 
 	  */
 /** SD-1731 */
 	
