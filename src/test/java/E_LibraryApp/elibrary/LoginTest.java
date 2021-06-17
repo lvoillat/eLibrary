@@ -1,8 +1,11 @@
 package E_LibraryApp.elibrary;
 
 import java.net.MalformedURLException;
+
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+import java.util.Set;
+import java.util.Iterator;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -154,8 +157,7 @@ public class LoginTest extends TestCase {
 		
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
 
-        import java.util.Set;
-        import java.util.Iterator;
+
         String currentwindow = driver.getWindowHandle();
         Set<String> allWindows = driver.getWindowHandles();
         Iterator<String> i = allWindows.iterator();
