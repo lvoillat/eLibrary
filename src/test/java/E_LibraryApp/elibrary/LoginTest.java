@@ -156,9 +156,7 @@ public class LoginTest extends TestCase {
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
        
         driver.get(polarionURL);
-        String currentwindow = driver.getWindowHandle();
-        driver.switchTo().window("currentwindow");
-        driver.switchTo().frame("currentwindow");        
+        driver.switchTo().frame(None);        
         
 		System.out.println("Test - Title is: "+driver.getTitle());
 		
