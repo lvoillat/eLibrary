@@ -153,7 +153,8 @@ public class LoginTest extends TestCase {
 //        options.addArguments("--js-flags=--expose-gc");  
 		
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
-        driver.getWindowHandle();
+        windowsHandle = driver.getWindowHandle();
+        driver.switchTo().window(windowsHandle);
         driver.get(polarionURL);
 		System.out.println("Test - Title is: "+driver.getTitle());
 		
