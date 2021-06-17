@@ -43,7 +43,7 @@ public class LoginTest extends TestCase {
 	    String pathSelenium		= "C:\\LCS\\Selenium";   // double backslash between every folder
 	    String rmWebDrvURL		= "http://localhost:4444/wd/hub";		// Selenium Remote Web Driver URL
 
-	    String polarionURL		= "http://pl1chzrh0114nb/polarion/";	// Polarion URL you want to test (Login)
+	    String polarionURL		= "http://pl1chzrh0114nb/polarion/#/project/SiemensDemo/home";	// Polarion URL you want to test (Login)
 	    String polarionUser		= "lVoillat";							// Polarion Username
 	    String polarionPassword	= "1";									// Polarion Password
 
