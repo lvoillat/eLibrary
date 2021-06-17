@@ -154,6 +154,8 @@ public class LoginTest extends TestCase {
 		
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
 
+        import java.util.Set;
+        import java.util.Iterator;
         String currentwindow = driver.getWindowHandle();
         Set<String> allWindows = driver.getWindowHandles();
         Iterator<String> i = allWindows.iterator();
