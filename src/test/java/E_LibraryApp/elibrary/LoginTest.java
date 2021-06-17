@@ -155,10 +155,7 @@ public class LoginTest extends TestCase {
 		
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
        
-        driver.get(polarionURL);
-        driver.switchTo().frame(0);
-        driver.switchTo().frame(1);
-        
+        driver.get(polarionURL);       
 		System.out.println("Test - Title is: "+driver.getTitle());
 		
 	    // Perform actions on HTML elements, entering text and submitting the form
