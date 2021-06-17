@@ -157,7 +157,7 @@ public class LoginTest extends TestCase {
        
         driver.get(polarionURL);
         String currentwindow = driver.getWindowHandle();
-        driver.switchTo().window("currentwindow";)
+        driver.switchTo().window("currentwindow");
         driver.switchTo().frame("currentwindow");        
         
 		System.out.println("Test - Title is: "+driver.getTitle());
