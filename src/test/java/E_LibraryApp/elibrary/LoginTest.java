@@ -153,7 +153,20 @@ public class LoginTest extends TestCase {
 //        options.addArguments("--js-flags=--expose-gc");  
 		
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
-        driver.switch_to.window(driver.current_window_handle);
+
+        String currentwindow = driver.getWindowHandle();
+        Set<String> allWindows = driver.getWindowHandles();
+        Iterator<String> i = allWindows.iterator();
+        while(i.hasNext()){
+           String childwindow = i.next();
+           if(!childwindow.equalsIgnoreCase(currentWindow)){
+              driver.switchTo().window(childwindow);
+              System.out.println("The child window is "+childwindow);
+           } else {
+              System.out.println("There are no children");
+           }
+        }        
+        
         driver.get(polarionURL);
 		System.out.println("Test - Title is: "+driver.getTitle());
 		
