@@ -4,8 +4,6 @@ import java.net.MalformedURLException;
 
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
-import java.util.Set;
-import java.util.Iterator;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -157,19 +155,7 @@ public class LoginTest extends TestCase {
 		
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
 
-
-        String currentwindow = driver.getWindowHandle();
-        Set<String> allWindows = driver.getWindowHandles();
-        Iterator<String> i = allWindows.iterator();
-        while(i.hasNext()){
-           String childwindow = i.next();
-           if(!childwindow.equalsIgnoreCase(currentWindow)){
-              driver.switchTo().window(childwindow);
-              System.out.println("The child window is "+childwindow);
-           } else {
-              System.out.println("There are no children");
-           }
-        }        
+        driver.SwitchTo().Frame("popupFrame");  
         
         driver.get(polarionURL);
 		System.out.println("Test - Title is: "+driver.getTitle());
