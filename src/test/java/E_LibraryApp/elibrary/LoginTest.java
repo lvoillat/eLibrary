@@ -154,10 +154,12 @@ public class LoginTest extends TestCase {
 //        options.addArguments("--js-flags=--expose-gc");  
 		
         driver = new RemoteWebDriver(new URL(rmWebDrvURL), options);
-
-        driver.switchTo().frame("popupFrame"); 
-        
+       
         driver.get(polarionURL);
+        String currentwindow = driver.getWindowHandle();
+        driver.switchTo().window("currentwindow";)
+        driver.switchTo().frame("currentwindow");        
+        
 		System.out.println("Test - Title is: "+driver.getTitle());
 		
 	    // Perform actions on HTML elements, entering text and submitting the form
