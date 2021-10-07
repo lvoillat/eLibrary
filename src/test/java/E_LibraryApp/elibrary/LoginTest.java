@@ -36,7 +36,6 @@ public class LoginTest extends TestCase {
 	 /**
 	  @wi.implements SD-1731 Test User Login 
 	  */
-	
     public void testLogin() throws MalformedURLException, InterruptedException {
 
 	    String pathSelenium		= "C:\\LCS\\Selenium";   // double backslash between every folder
