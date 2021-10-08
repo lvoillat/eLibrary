@@ -165,7 +165,7 @@ public class LoginTest extends TestCase {
 	    passwordElement.clear();
 	    usernameElement.sendKeys(polarionUser);
 	    passwordElement.sendKeys(polarionPassword);
-	    StayLoggedInElement.click();
+// 21R2	    StayLoggedInElement.click();
 	    
 	    formElement.submit();        // submit by form element	    
 	    
