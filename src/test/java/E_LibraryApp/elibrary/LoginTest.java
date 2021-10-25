@@ -176,7 +176,8 @@ public class LoginTest extends TestCase {
 	    	assertTrue(successMsg,true);
 	    }
 	    catch(Exception e) {
-	    	WebElement errorMessage = driver.findElement(By.id("errorMessage"));
+	    	// WebElement errorMessage = driver.findElement(By.id("errorMessage"));
+		WebElement errorMessage = driver.findElement(By.className("errormessage"));    
 	    	String failedMsg = errorMessage.getText();
 	    	System.out.println("Message: "+failedMsg);
 	    	driver.quit();
