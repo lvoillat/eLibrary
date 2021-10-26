@@ -32,7 +32,6 @@ import org.testng.annotations.*;
 public class LoginTest extends TestCase {
 
 	public static WebDriver driver;
-	
 	 /**
 	  @wi.implements SD-1731 Test User Login 
 	  */ 
