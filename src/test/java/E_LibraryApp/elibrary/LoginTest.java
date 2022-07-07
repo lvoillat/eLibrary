@@ -43,7 +43,7 @@ public class LoginTest extends TestCase {
 
 	    String polarionURL		= "http://pl1chzrh0298nb/polarion/#/project/SiemensDemo/home";	// Polarion URL you want to test (Login)
 	    String polarionUser		= "sDeveloper";							// Polarion Username
-	    String polarionPassword	= "sd";									// Polarion Password
+	    String polarionPassword	= "sdd";									// Polarion Password
 
 	    String successMsg		= "Welcome to Polarion. You logged in successfully";
 
@@ -171,7 +171,7 @@ public class LoginTest extends TestCase {
 	    
 	    try {
 		    // Anticipate web browser response, with an explicit wait
-	    	WebDriverWait wait = new WebDriverWait(driver, 1);
+	    	WebDriverWait wait = new WebDriverWait(driver, 5);
 	    	wait.until(ExpectedConditions.presenceOfElementLocated(By.id("DOM_13")));   // Check for an existing element on the 1st page after login
 	        System.out.println("Message: "+successMsg);
 	    	assertTrue(successMsg,true);
