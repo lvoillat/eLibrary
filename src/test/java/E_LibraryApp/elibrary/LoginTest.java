@@ -171,7 +171,7 @@ public class LoginTest extends TestCase {
 	    
 	    try {
 		    // Anticipate web browser response, with an explicit wait
-// Gecko	    	WebDriverWait wait = new WebDriverWait(driver, 5);
+	    	WebDriverWait wait = new WebDriverWait(driver, 1);
 	    	wait.until(ExpectedConditions.presenceOfElementLocated(By.id("DOM_13")));   // Check for an existing element on the 1st page after login
 	        System.out.println("Message: "+successMsg);
 	    	assertTrue(successMsg,true);
