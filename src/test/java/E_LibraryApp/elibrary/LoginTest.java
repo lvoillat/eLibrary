@@ -42,8 +42,8 @@ public class LoginTest extends TestCase {
 	    String rmWebDrvURL		= "http://localhost:4444/wd/hub";		// Selenium Remote Web Driver URL
 
 	    String polarionURL		= "http://pl1chzrh0298nb/polarion/#/project/SiemensDemo/home";	// Polarion URL you want to test (Login)
-	    String polarionUser		= "lVoillat";							// Polarion Username
-	    String polarionPassword	= "1";									// Polarion Password
+	    String polarionUser		= "ed";							// Polarion Username
+	    String polarionPassword	= "edd";									// Polarion Password
 
 	    String successMsg		= "Welcome to Polarion. You logged in successfully";
 
