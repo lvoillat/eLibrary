@@ -208,6 +208,7 @@ public class LoginTest extends TestCase {
     
 	 /**
 	  @wi.implements SD-1454 New Test User Logout function
+	  @wi.implements GPTT0712-30992 Sleep time / Wake up
 	  */
     
 /**
