@@ -34,7 +34,8 @@ public class LoginTest extends TestCase {
 	public static WebDriver driver;
 	
 	 /**
-	  @wi.implements SD-1731 Test User Login 
+	  @wi.implements SD-1731 Test User Login
+	  @wi.implements GPTT0712-36394 Trace
 	  */ 
     public void testLogin() throws MalformedURLException, InterruptedException {
 
