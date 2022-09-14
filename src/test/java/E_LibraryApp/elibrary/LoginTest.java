@@ -134,8 +134,8 @@ public class LoginTest extends TestCase {
 //		dr = DesiredCapabilities.chrome();
 //		dr.setBrowserName("chrome");
 //		dr.setPlatform(Platform.WIN10);
-		//System.setProperty("webdriver.chrome.driver", pathSelenium + "chromedriver.exe");
-		//ChromeOptions options = new ChromeOptions();
+		System.setProperty("webdriver.chrome.driver", pathSelenium + "chromedriver.exe");
+		ChromeOptions options = new ChromeOptions();
 //		options.setBrowserName("chrome");
 //		options.setPlatform(Platform.WIN10);
     	
@@ -144,10 +144,12 @@ public class LoginTest extends TestCase {
 //		dr = DesiredCapabilities.firefox();
 //		dr.setBrowserName("firefox");
 //		dr.setPlatform(Platform.WIN10);
-		System.setProperty("webdriver.firefox.driver", pathSelenium + "geckodriver.exe");
-		FirefoxOptions options = new FirefoxOptions();
-		
-        options.addArguments("test-type");
+
+// Enable for Firefox (3 next lines)
+//		System.setProperty("webdriver.firefox.driver", pathSelenium + "geckodriver.exe");
+//		FirefoxOptions options = new FirefoxOptions();
+//        options.addArguments("test-type");
+        
 //        options.addArguments("start-maximized");
 //        options.addArguments("--js-flags=--expose-gc");  
 		
