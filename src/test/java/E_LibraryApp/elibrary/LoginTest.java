@@ -192,8 +192,10 @@ public class LoginTest extends TestCase {
 	    // Polarion Logout
 		TimeUnit.SECONDS.sleep(8);	    
 		WebDriverWait wait4 = new WebDriverWait(driver, 3);
+		// Polarion 22R2
 		wait4.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//img[contains(@src, 'lite_settings_off.svg')]")));		
 		driver.findElement(By.xpath("//img[contains(@src, 'lite_settings_off.svg')]")).click();
+// Polarion 21R2
 //		wait4.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//img[@class=\"gwt-Image\"]")));		
 //		driver.findElement(By.xpath("//img[@class=\"gwt-Image\"]")).click();
 
