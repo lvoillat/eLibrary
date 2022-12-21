@@ -49,7 +49,7 @@ public class LoginTest extends TestCase {
 	    String successMsg		= "Welcome to Polarion. You logged in successfully";
 
 
-		/** BrowserStack
+		/** BrowserStack 
 		 */
 //		String USERNAME = "lionelvoillat1";
 //		String AUTOMATE_KEY = "c8qy1xrppgzqqvyTUK6E";
