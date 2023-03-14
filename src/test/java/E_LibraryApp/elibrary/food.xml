@@ -6,7 +6,7 @@
 <calories>650</calories>
 </food>
 <food>
-<!-- @wi.implements SD-7229 Food -->
+<!-- @wi.implements SD-7230 Food -->
 <name>Strawberry Belgian Waffles</name>
 <price>$7.95</price>
 <description>Light Belgian waffles covered with strawberries and whipped cream</description>
