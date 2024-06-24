@@ -44,7 +44,7 @@ public class LoginTest extends TestCase {
 
 	    String polarionURL		= "http://pl1chzrh0298nb/polarion/#/project/SiemensDemo/home";	// Polarion URL you want to test (Login)
 	    String polarionUser		= "sDeveloper";							// Polarion Username
-	    String polarionPassword	= "sd1";								// Polarion Password
+	    String polarionPassword	= "sd";								// Polarion Password
 
 	    String successMsg		= "Welcome to Polarion. You logged in successfully";
 
