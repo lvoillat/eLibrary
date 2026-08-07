@@ -1,0 +1,240 @@
+{
+  "main/java/E_LibraryApp/elibrary/Book.java": [
+    {
+      "component": "bookmarket",
+      "file": "bookmarket-data/src/main/java/net/tncy/qle/bookmarket/data/Book.java",
+      "file_hash": "0a91f3eb721f67cd40687ac85c395524",
+      "file_url": " ",
+      "hits": 5,
+      "id": "snippet",
+      "latest": "bookmarket-1.0.0",
+      "licenses": [],
+      "lines": "7-49",
+      "matched": "84%",
+      "oss_lines": "11-53",
+      "purl": [
+        "pkg:bitbucket/semaine-bloquee-il-2023/bookmarket"
+      ],
+      "release_date": "2023-11-22",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      },
+      "source_hash": "a50cda231312045942040076199f4974",
+      "status": "pending",
+      "url": "https://bitbucket.org/semaine-bloquee-il-2023/bookmarket/get/bookmarket-1.0.0.zip",
+      "url_hash": "6cfb41aefbfddc54f5ba21b139bc0003",
+      "vendor": "semaine-bloquee-il-2023",
+      "version": "bookmarket-1.0.0"
+    }
+  ],
+  "main/java/E_LibraryApp/elibrary/Example.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "main/java/E_LibraryApp/elibrary/Library.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "main/java/com/polarion/demo/Book.java": [
+    {
+      "component": "bookmarket",
+      "file": "bookmarket-data/src/main/java/net/tncy/qle/bookmarket/data/Book.java",
+      "file_hash": "0a91f3eb721f67cd40687ac85c395524",
+      "file_url": " ",
+      "hits": 5,
+      "id": "snippet",
+      "latest": "bookmarket-1.0.0",
+      "licenses": [],
+      "lines": "8-50",
+      "matched": "82%",
+      "oss_lines": "11-53",
+      "purl": [
+        "pkg:bitbucket/semaine-bloquee-il-2023/bookmarket"
+      ],
+      "release_date": "2023-11-22",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      },
+      "source_hash": "7953db1367d4a5cc742c5042b791d206",
+      "status": "pending",
+      "url": "https://bitbucket.org/semaine-bloquee-il-2023/bookmarket/get/bookmarket-1.0.0.zip",
+      "url_hash": "6cfb41aefbfddc54f5ba21b139bc0003",
+      "vendor": "semaine-bloquee-il-2023",
+      "version": "bookmarket-1.0.0"
+    }
+  ],
+  "main/java/com/polarion/demo/Example.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "main/java/com/polarion/demo/Library.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "main/java/com/polarion/demo/reuse/ReusingClass.java": [
+    {
+      "component": "titan",
+      "file": "titan-hbase/src/test/java/com/thinkaurelius/titan/HBaseStorageSetup.java",
+      "file_hash": "f129752805ce15151565d3c817a74c52",
+      "file_url": " ",
+      "hits": 2,
+      "id": "snippet",
+      "latest": "0.4.0",
+      "licenses": [
+        {
+          "checklist_url": "https://www.osadl.org/fileadmin/checklists/unreflicenses/Apache-2.0.txt",
+          "copyleft": "no",
+          "name": "Apache-2.0",
+          "osadl_updated": "2026-02-12T16:31:00+0000",
+          "patent_hints": "yes",
+          "source": "component_declared",
+          "url": "https://spdx.org/licenses/Apache-2.0.html"
+        }
+      ],
+      "lines": "8-20",
+      "matched": "60%",
+      "oss_lines": "5-17",
+      "purl": [
+        "pkg:github/thinkaurelius/titan"
+      ],
+      "release_date": "2013-03-29",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      },
+      "source_hash": "cd70882150d7d1c1e1f2b3b2ea964d18",
+      "status": "pending",
+      "url": "https://github.com/thinkaurelius/titan",
+      "url_hash": "492a7518db3d6912bb467e195e86247f",
+      "vendor": "thinkaurelius",
+      "version": "0.3.0"
+    }
+  ],
+  "main/java/com/polarion/demo/reuse/SubClass.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "test/java/E_LibraryApp/elibrary/BookTest.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "test/java/E_LibraryApp/elibrary/LibraryTest.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "test/java/E_LibraryApp/elibrary/LoginTest.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "test/java/com/polarion/demo/BookTest.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "test/java/com/polarion/demo/LibraryTest.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ],
+  "test/java/com/polarion/demo/LoginTest.java": [
+    {
+      "id": "none",
+      "server": {
+        "kb_version": {
+          "daily": "26.03.19",
+          "monthly": "26.02"
+        },
+        "version": "5.4.22"
+      }
+    }
+  ]
+}
